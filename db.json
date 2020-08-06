@@ -1,14 +1,3517 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "runinfo": [
+    {
+      "id": "dummy_id"
+    },
+    {
+      "currentStatus": "Completed",
+      "startDate": "2019-09-11 17:43:35",
+      "machineName": "WKWIN7608262",
+      "ip": "10.0.75.1",
+      "username": "ganathma",
+      "id": "Xp1tm_Z",
+      "executionPercentage": "100.0%",
+      "finalStatus": {
+        "passed": 0,
+        "failed": 100,
+        "category": "SCENARIO",
+        "skipped": 0
+      },
+      "endData": "2019-09-11 17:44:54"
+    },
+    {
+      "currentStatus": "Completed",
+      "startDate": "2019-09-11 17:45:12",
+      "machineName": "WKWIN7608262",
+      "ip": "10.0.75.1",
+      "username": "ganathma",
+      "id": "ZAxifA0",
+      "executionPercentage": "100.0%",
+      "finalStatus": {
+        "passed": 70,
+        "failed": 30,
+        "category": "SCENARIO",
+        "skipped": 0
+      },
+      "endData": "2019-09-11 17:51:12"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "history": [
+    {
+      "id": "dummy_id"
+    },
+    
+    {
+      "_id": {
+        "$oid": "5f1fd46b5d643e051e1db962"
+      },
+      "suites": {
+        "SuiteResults": {
+          "pass": "0",
+          "fail": "2",
+          "noRun": " ",
+          "cnm": " ",
+          "skipped": "0"
+        },
+        "Suite": [
+          {
+            "name": "DemoSuite",
+            "id": "DemoSuite",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Tue Jul 28 12:59:45 IST 2020",
+            "endTime": "Tue Jul 28 13:01:44 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc,DemoSc2",
+                  "id": "DemoSc",
+                  "field": " ",
+                  "startTime": "2020-07-28 12:59:56.507",
+                  "endTime": "2020-07-28 13:00:42.21",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "3415",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 6.856
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.966
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.284
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.862
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "3416",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 8.075
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 1.898
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite_130039_Sheet2_1_Click_76.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.123
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 1.676
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "DemoSuite2",
+            "id": "DemoSuite2",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Tue Jul 28 12:59:45 IST 2020",
+            "endTime": "Tue Jul 28 13:01:44 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc2,DemoSc",
+                  "id": "DemoSc2",
+                  "field": " ",
+                  "startTime": "2020-07-28 13:01:01.18",
+                  "endTime": "2020-07-28 13:01:39.134",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "3417",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.573
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.736
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite2_130129_Sheet2_1_Click_53.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.16
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.753
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "3418",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 4.827
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.529
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.59
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.808
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ip": "192.168.99.1",
+      "machineName": "WKWIN7608262",
+      "username": "ganathma",
+      "id": "4gJPJ21"
+    },
+    {
+      "_id": {
+        "$oid": "5f2114d95c74bd7eb63a3671"
+      },
+      "suites": {
+        "SuiteResults": {
+          "pass": "0",
+          "fail": "2",
+          "noRun": " ",
+          "cnm": " ",
+          "skipped": "0"
+        },
+        "Suite": [
+          {
+            "name": "DemoSuite",
+            "id": "DemoSuite",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 11:47:16 IST 2020",
+            "endTime": "Wed Jul 29 11:48:55 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc,DemoSc2",
+                  "id": "DemoSc",
+                  "field": " ",
+                  "startTime": "2020-07-29 11:47:25.167",
+                  "endTime": "2020-07-29 11:48:03.071",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "3615",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 6.227
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.435
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.623
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.75
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "3616",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 4.41
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.302
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite_114801_Sheet2_1_Click_34.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.12
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.722
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "DemoSuite2",
+            "id": "DemoSuite2",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 11:47:16 IST 2020",
+            "endTime": "Wed Jul 29 11:48:55 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc2,DemoSc",
+                  "id": "DemoSc2",
+                  "field": " ",
+                  "startTime": "2020-07-29 11:48:16.981",
+                  "endTime": "2020-07-29 11:48:52.905",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "3617",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 4.516
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.279
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite2_114843_Sheet2_1_Click_4.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.143
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.7
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "3618",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 4.57
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.279
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.366
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 1.281
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ip": "192.168.99.1",
+      "machineName": "WKWIN7608262",
+      "username": "ganathma",
+      "id": "ilJP-3e"
+    },
+    {
+      "_id": {
+        "$oid": "5f216aaa004bce2a496f6ad5"
+      },
+      "suites": {
+        "SuiteResults": {
+          "pass": "0",
+          "fail": "2",
+          "noRun": " ",
+          "cnm": " ",
+          "skipped": "0"
+        },
+        "Suite": [
+          {
+            "name": "DemoSuite",
+            "id": "DemoSuite",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 17:52:59 IST 2020",
+            "endTime": "Wed Jul 29 17:54:58 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc,DemoSc2",
+                  "id": "DemoSc",
+                  "field": " ",
+                  "startTime": "2020-07-29 17:53:12.188",
+                  "endTime": "2020-07-29 17:53:55.126",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "3815",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 8.026
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.613
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.925
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.878
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "3816",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.548
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.983
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite_175353_Sheet2_1_Click_31.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.123
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.92
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "DemoSuite2",
+            "id": "DemoSuite2",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 17:52:59 IST 2020",
+            "endTime": "Wed Jul 29 17:54:58 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc2,DemoSc",
+                  "id": "DemoSc2",
+                  "field": " ",
+                  "startTime": "2020-07-29 17:54:13.291",
+                  "endTime": "2020-07-29 17:54:52.848",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "3817",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.59
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 1.127
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite2_175441_Sheet2_1_Click_19.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.134
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.922
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "3818",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.767
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.703
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.63
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.903
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ip": "192.168.99.1",
+      "machineName": "WKWIN7608262",
+      "username": "ganathma",
+      "id": "c-NujNj"
+    },
+    {
+      "_id": {
+        "$oid": "5f2175ee982efc168fc3e605"
+      },
+      "suites": {
+        "SuiteResults": {
+          "pass": "0",
+          "fail": "2",
+          "noRun": " ",
+          "cnm": " ",
+          "skipped": "0"
+        },
+        "Suite": [
+          {
+            "name": "DemoSuite",
+            "id": "DemoSuite",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 11:47:16 IST 2020",
+            "endTime": "Wed Jul 29 11:48:55 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc,DemoSc2",
+                  "id": "DemoSc",
+                  "field": " ",
+                  "startTime": "2020-07-29 11:47:25.167",
+                  "endTime": "2020-07-29 11:48:03.071",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "3615",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 6.227
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.435
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.623
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.75
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "3616",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 4.41
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.302
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite_114801_Sheet2_1_Click_34.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.12
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.722
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "DemoSuite2",
+            "id": "DemoSuite2",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 11:47:16 IST 2020",
+            "endTime": "Wed Jul 29 11:48:55 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc2,DemoSc",
+                  "id": "DemoSc2",
+                  "field": " ",
+                  "startTime": "2020-07-29 11:48:16.981",
+                  "endTime": "2020-07-29 11:48:52.905",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "3617",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 4.516
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.279
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite2_114843_Sheet2_1_Click_4.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.143
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.7
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "3618",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 4.57
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.279
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.366
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 1.281
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ip": "192.168.99.1",
+      "machineName": "WKWIN7608262",
+      "username": "ganathma",
+      "id": "KkKItix"
+    },
+    {
+      "_id": {
+        "$oid": "5f2175ff982efc168fc3e623"
+      },
+      "suites": {
+        "SuiteResults": {
+          "pass": "0",
+          "fail": "2",
+          "noRun": " ",
+          "cnm": " ",
+          "skipped": "0"
+        },
+        "Suite": [
+          {
+            "name": "DemoSuite",
+            "id": "DemoSuite",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 11:47:16 IST 2020",
+            "endTime": "Wed Jul 29 11:48:55 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc,DemoSc2",
+                  "id": "DemoSc",
+                  "field": " ",
+                  "startTime": "2020-07-29 11:47:25.167",
+                  "endTime": "2020-07-29 11:48:03.071",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "3615",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 6.227
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.435
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.623
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.75
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "3616",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 4.41
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.302
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite_114801_Sheet2_1_Click_34.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.12
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.722
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "DemoSuite2",
+            "id": "DemoSuite2",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 11:47:16 IST 2020",
+            "endTime": "Wed Jul 29 11:48:55 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc2,DemoSc",
+                  "id": "DemoSc2",
+                  "field": " ",
+                  "startTime": "2020-07-29 11:48:16.981",
+                  "endTime": "2020-07-29 11:48:52.905",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "3617",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 4.516
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.279
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite2_114843_Sheet2_1_Click_4.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.143
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.7
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "3618",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 4.57
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.279
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.366
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 1.281
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ip": "192.168.99.1",
+      "machineName": "WKWIN7608262",
+      "username": "ganathma",
+      "id": "YkkTjH3"
+    },
+    {
+      "_id": {
+        "$oid": "5f2176f9652a6433805d2d00"
+      },
+      "suites": {
+        "SuiteResults": {
+          "pass": "0",
+          "fail": "2",
+          "noRun": " ",
+          "cnm": " ",
+          "skipped": "0"
+        },
+        "Suite": [
+          {
+            "name": "DemoSuite",
+            "id": "DemoSuite",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 18:45:45 IST 2020",
+            "endTime": "Wed Jul 29 18:47:34 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc,DemoSc2",
+                  "id": "DemoSc",
+                  "field": " ",
+                  "startTime": "2020-07-29 18:45:55.614",
+                  "endTime": "2020-07-29 18:46:35.034",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "4015",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.984
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.879
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.723
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.773
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "4016",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.224
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.571
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite_184633_Sheet2_1_Click_23.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.126
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.775
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "DemoSuite2",
+            "id": "DemoSuite2",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 18:45:45 IST 2020",
+            "endTime": "Wed Jul 29 18:47:34 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc2,DemoSc",
+                  "id": "DemoSc2",
+                  "field": " ",
+                  "startTime": "2020-07-29 18:46:47.583",
+                  "endTime": "2020-07-29 18:47:29.944",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "4017",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 7.388
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.41
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite2_184716_Sheet2_1_Click_67.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.197
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.777
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "4018",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 7.137
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.473
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 3.101
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.888
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ip": "192.168.99.1",
+      "machineName": "WKWIN7608262",
+      "username": "ganathma",
+      "id": "DuGBTFP"
+    },
+    {
+      "_id": {
+        "$oid": "5f218fd5953d5d696af8774d"
+      },
+      "suites": {
+        "SuiteResults": {
+          "pass": "0",
+          "fail": "2",
+          "noRun": " ",
+          "cnm": " ",
+          "skipped": "0"
+        },
+        "Suite": [
+          {
+            "name": "DemoSuite",
+            "id": "DemoSuite",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 20:31:25 IST 2020",
+            "endTime": "Wed Jul 29 20:33:35 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc,DemoSc2",
+                  "id": "DemoSc",
+                  "field": " ",
+                  "startTime": "2020-07-29 20:31:38.123",
+                  "endTime": "2020-07-29 20:32:24.136",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "4215",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 7.817
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.623
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 3.756
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 2.263
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "4216",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 6.127
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.664
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite_203222_Sheet2_1_Click_41.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.233
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 1.43
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "DemoSuite2",
+            "id": "DemoSuite2",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 20:31:25 IST 2020",
+            "endTime": "Wed Jul 29 20:33:35 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc2,DemoSc",
+                  "id": "DemoSc2",
+                  "field": " ",
+                  "startTime": "2020-07-29 20:32:47.362",
+                  "endTime": "2020-07-29 20:33:29.265",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "4217",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.781
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 1.263
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite2_203315_Sheet2_1_Click_81.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.092
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 1.034
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "4218",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.518
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.471
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 3.725
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 1.328
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ip": "192.168.99.1",
+      "machineName": "WKWIN7608262",
+      "username": "ganathma",
+      "id": "erJhGQF"
+    },
+    {
+      "_id": {
+        "$oid": "5f219143fa8cce3a3d2bbdb1"
+      },
+      "suites": {
+        "SuiteResults": {
+          "pass": "0",
+          "fail": "2",
+          "noRun": " ",
+          "cnm": " ",
+          "skipped": "0"
+        },
+        "Suite": [
+          {
+            "name": "DemoSuite",
+            "id": "DemoSuite",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 20:37:41 IST 2020",
+            "endTime": "Wed Jul 29 20:39:42 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc,DemoSc2",
+                  "id": "DemoSc",
+                  "field": " ",
+                  "startTime": "2020-07-29 20:37:54.125",
+                  "endTime": "2020-07-29 20:38:36.915",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "4415",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 6.849
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.859
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.926
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 1.274
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "4416",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.609
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 1.28
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite_203835_Sheet2_1_Click_97.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.144
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 1.031
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "DemoSuite2",
+            "id": "DemoSuite2",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 20:37:41 IST 2020",
+            "endTime": "Wed Jul 29 20:39:42 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc2,DemoSc",
+                  "id": "DemoSc2",
+                  "field": " ",
+                  "startTime": "2020-07-29 20:38:53.945",
+                  "endTime": "2020-07-29 20:39:36.331",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "4417",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.778
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.772
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite2_203921_Sheet2_1_Click_70.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.19
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.953
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "4418",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 6.059
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 1.353
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 3.418
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 1.831
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ip": "192.168.99.1",
+      "machineName": "WKWIN7608262",
+      "username": "ganathma",
+      "id": "aBixOae"
+    },
+    {
+      "_id": {
+        "$oid": "5f21928547c5816788ef14c1"
+      },
+      "suites": {
+        "SuiteResults": {
+          "pass": "0",
+          "fail": "2",
+          "noRun": " ",
+          "cnm": " ",
+          "skipped": "0"
+        },
+        "Suite": [
+          {
+            "name": "DemoSuite",
+            "id": "DemoSuite",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 20:42:45 IST 2020",
+            "endTime": "Wed Jul 29 20:45:03 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc,DemoSc2",
+                  "id": "DemoSc",
+                  "field": " ",
+                  "startTime": "2020-07-29 20:43:02.552",
+                  "endTime": "2020-07-29 20:43:50.236",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "4615",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 9.216
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 1.402
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.849
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 1.522
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "4616",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 6.207
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.681
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite_204347_Sheet2_1_Click_20.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.327
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 2.029
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "DemoSuite2",
+            "id": "DemoSuite2",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Wed Jul 29 20:42:45 IST 2020",
+            "endTime": "Wed Jul 29 20:45:03 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc2,DemoSc",
+                  "id": "DemoSc2",
+                  "field": " ",
+                  "startTime": "2020-07-29 20:44:16.678",
+                  "endTime": "2020-07-29 20:44:57.395",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "4617",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.634
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.911
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite2_204444_Sheet2_1_Click_4.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.25
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 1.127
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "4618",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.868
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 1.288
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.806
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.918
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ip": "192.168.99.1",
+      "machineName": "WKWIN7608262",
+      "username": "ganathma",
+      "id": "DW_Qw2l"
+    },
+    {
+      "_id": {
+        "$oid": "5f225f09fb258840102922ce"
+      },
+      "suites": {
+        "SuiteResults": {
+          "pass": "0",
+          "fail": "2",
+          "noRun": " ",
+          "cnm": " ",
+          "skipped": "0"
+        },
+        "Suite": [
+          {
+            "name": "DemoSuite",
+            "id": "DemoSuite",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Thu Jul 30 11:16:03 IST 2020",
+            "endTime": "Thu Jul 30 11:17:43 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc,DemoSc2",
+                  "id": "DemoSc",
+                  "field": " ",
+                  "startTime": "2020-07-30 11:16:13.876",
+                  "endTime": "2020-07-30 11:16:52.487",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "5615",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.608
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.477
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.221
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.784
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "5616",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.814
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.316
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite_111651_Sheet2_1_Click_45.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.212
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.775
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "DemoSuite2",
+            "id": "DemoSuite2",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Thu Jul 30 11:16:03 IST 2020",
+            "endTime": "Thu Jul 30 11:17:43 IST 2020",
+            "ScenarioResults": {
+              "pass": "0",
+              "fail": "1",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc2,DemoSc",
+                  "id": "DemoSc2",
+                  "field": " ",
+                  "startTime": "2020-07-30 11:17:03.952",
+                  "endTime": "2020-07-30 11:17:40.069",
+                  "TestCaseResults": {
+                    "pass": "1",
+                    "fail": "1",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "5617",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "1",
+                          "fail": "1",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.107
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet2_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.424
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet2_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "NoSuchElementException",
+                              "screepath": "Images\\DemoSuite2_111730_Sheet2_1_Click_8.png",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "FAILED",
+                              "duration": 21.099
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.74
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "5618",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "2",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 4.625
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Sheet1_1.3.DirectRef",
+                              "action": "Enter",
+                              "expRes": "",
+                              "testData": "Selenium",
+                              "errorcode": "",
+                              "description": ": Enter <Selenium> into <NAME::q>",
+                              "status": "PASSED",
+                              "duration": 0.342
+                            },
+                            {
+                              "seq": "3",
+                              "refOR": "Sheet1_1.4.DirectRef",
+                              "action": "Click",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Click on <NAME::btnK>",
+                              "status": "PASSED",
+                              "duration": 2.259
+                            },
+                            {
+                              "seq": "4",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.822
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "id": "ethukku",
+      "ip": "192.168.99.1",
+      "machineName": "WKWIN7608262",
+      "username": "ganathma"
+    },
+    {
+      "suites": {
+        "SuiteResults": {
+          "pass": "1",
+          "fail": "0",
+          "noRun": " ",
+          "cnm": " ",
+          "skipped": "0"
+        },
+        "Suite": [
+          {
+            "name": "DemoSuite",
+            "id": "DemoSuite",
+            "browser": "Chrome",
+            "channel": "Desktop",
+            "batch": "a_seq",
+            "startTime": "Fri Jul 31 15:04:56 IST 2020",
+            "endTime": "Fri Jul 31 15:05:29 IST 2020",
+            "ScenarioResults": {
+              "pass": "1",
+              "fail": "0",
+              "noRun": " ",
+              "CNM": " ",
+              "skipped": "0"
+            },
+            "scenarios": {
+              "Scenario": [
+                {
+                  "name": "DemoSc,DemoSc2",
+                  "id": "DemoSc",
+                  "field": " ",
+                  "startTime": "2020-07-31 15:05:05.449",
+                  "endTime": "2020-07-31 15:05:18.981",
+                  "TestCaseResults": {
+                    "pass": "2",
+                    "fail": "0",
+                    "noRun": " ",
+                    "CNM": " ",
+                    "skipped": "0"
+                  },
+                  "testcases": {
+                    "testCase": [
+                      {
+                        "id": "6708",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "0",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.805
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.81
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "6709",
+                        "name": "Demo",
+                        "StepsResults": {
+                          "pass": "0",
+                          "fail": "0",
+                          "noRun": " ",
+                          "skipped": "0",
+                          "CNM": " "
+                        },
+                        "steps": {
+                          "step": [
+                            {
+                              "seq": "1",
+                              "refOR": "Custom",
+                              "action": "LaunchSite",
+                              "expRes": "",
+                              "testData": "https://www.google.com",
+                              "errorcode": "",
+                              "description": ": Launch the Site <https://www.google.com>",
+                              "status": "DONE (I)",
+                              "duration": 5.193
+                            },
+                            {
+                              "seq": "2",
+                              "refOR": "Custom",
+                              "action": "Quit",
+                              "expRes": "",
+                              "testData": "",
+                              "errorcode": "",
+                              "description": ": Quit the browser",
+                              "status": "DONE (I)",
+                              "duration": 0.783
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "_id": {
+        "$oid": "5f23e5e9ebeb88393109b7ad"
+      },
+      "ip": "192.168.99.1",
+      "machineName": "WKWIN7608262",
+      "username": "ganathma",
+      "id": "Lqmiy9q"
+    }
+  ]
 }
